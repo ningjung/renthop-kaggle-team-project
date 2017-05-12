@@ -1,0 +1,11 @@
+- remove NA or fill with 0
+- check for class imbalance (http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
+- 70(cv)/20(dev)/10(test)
+- discretising features (some models dont perform well on floats)
+- feature selection (subset selection: http://scikit-learn.org/stable/modules/generated/sklearn.metrics.make_scorer.html#sklearn.metrics.make_scorer)
+- Interquartile range filter (identify all the instances which are likely to be outliers)
+- Build model (how to select the best classification algorithm)
+- Error analysis (confusion matrix, figure out what might be wrong)
+- Cost sensitive analysis (log loss) Justify why this delivers business value.
+    https://www.quora.com/Why-do-Kaggle-uses-log-loss-rather-then-anything-else
+- Parameter tuning
